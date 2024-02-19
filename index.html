@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./IMG20220815181721.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -125,7 +126,7 @@
                 <div class>
                     <button class="btn bg-purple-500 rounded-full border-none">Life
                         <img src="./images/Group 23.svg" alt="">
-                        <span id="current-life">5</span>
+                        <span id="current-life">6</span>
                     </button>
                 </div>
                 <div>
@@ -137,12 +138,12 @@
             </div>
         </section>
         <!-- Score section -->
-        <section class=" score hidden flex flex-col justify-center items-center h-screen">
+        <section id="score-section" class=" score hidden flex flex-col justify-center items-center h-screen">
             <div
                 class="flex flex-col items-center justify-center  h-screen text-white gap-8  max-w-[500px] max-h-[282px] bg-violet-700 rounded-xl p-4 ">
 
-                <h1 class="text-8xl "><span class="font-extrabold">Score :</span> <span>0</span></h1>
-                <button class="btn text-black font-semibold text-2xl">Play Again</button>
+                <h1 class="text-8xl "><span class="font-extrabold">Score :</span> <span id="last-score">0</span></h1>
+                <button class="btn text-black font-semibold text-2xl" onclick="play()">Play Again</button>
                 <p>Practice will make you Pro</p>
             </div>
             </div>
